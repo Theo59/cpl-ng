@@ -1,13 +1,13 @@
 import {Component} from '@angular/core';
 import {Platform, ionicBootstrap} from 'ionic-angular';
 import {StatusBar} from 'ionic-native';
-import {TabsPage} from './pages/tabs/tabs';
+import {TabsPage} from './pages/tabs/tabs.component';
 
 
 @Component({
-  template: '<ion-nav [root]="rootPage"></ion-nav>'
+  templateUrl: 'build/app.html'
 })
-export class MyApp {  
+export class MyApp {
 
   private rootPage: any;
 
