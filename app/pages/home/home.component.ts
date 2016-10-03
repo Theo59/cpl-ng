@@ -5,7 +5,12 @@ import {NavController} from 'ionic-angular';
   templateUrl: 'build/pages/home/home.component.html'
 })
 export class HomePage {
+
+  toto: string;
+
   constructor(private navCtrl: NavController) {
+
+    this.toto = 'toto'; 
 
   }
 }
